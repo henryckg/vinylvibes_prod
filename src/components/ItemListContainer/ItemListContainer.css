@@ -1,0 +1,7 @@
+.main-container{
+    width: 100vw;
+    background-color: #eaead1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,38 @@
+.item-count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: .5rem
+}
+
+.count-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0
+}
+
+.count{
+    margin: 0;
+}
+
+button{
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: #c97858;
+    border-radius: 0.5rem;
+    transition: 0.2s ease;
+}
+
+.count-btn{
+    padding: 0 0.8rem;
+}
+
+button:hover{
+    background-color: #06281f ;
+}
+
+.agregar-carro{
+    padding: 0.5rem
+}

@@ -1,0 +1,11 @@
+.cart-widget{
+    text-decoration: none;
+}
+
+.icon{
+    transition: all 0.7s ease;
+}
+
+.icon:hover{
+    transform: translateY(-3px);
+}

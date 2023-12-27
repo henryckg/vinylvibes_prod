@@ -1,0 +1,39 @@
+.item-card{
+    background-color: #d9c97e;
+    border: 3px solid #06281f;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 0.5rem;
+    text-align: center;
+}
+
+.img-container{
+    background-color: #d9c97e;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-product-img{
+    border-radius: 1rem;
+}
+
+.link-ver-mas{
+    text-decoration: none;
+    color: white;
+    background-color: #c97858;
+    padding: 0.5rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    transition: 0.2s ease;
+}
+
+.link-ver-mas:hover{
+    background-color: #06281f ;
+}
+
