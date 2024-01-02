@@ -6,7 +6,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 export default function NavBar() {
 
-    const [showMenu, setShowMenu] = useState(true)
+    const [showMenu, setShowMenu] = useState(false)
 
     function handleShowMenu(){
         setShowMenu(!showMenu)
