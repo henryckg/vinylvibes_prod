@@ -17,6 +17,9 @@ h2{
     height: 1.8rem;
     background-color: rgb(181, 3, 3);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .eliminar-item:hover{
@@ -117,5 +120,10 @@ h2{
         position: absolute;
         top: 20px;
         right: 20px
+    }
+
+    .cart-details h4{
+        position: relative;
+        left: 1.2rem;
     }
 }
