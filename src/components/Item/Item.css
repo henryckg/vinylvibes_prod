@@ -21,6 +21,7 @@
 
 .item-product-img{
     border-radius: 1rem;
+    width: 250px
 }
 
 .link-ver-mas{
@@ -37,3 +38,22 @@
     background-color: #06281f ;
 }
 
+@media screen and (max-width: 1120px){
+    .item-product-img{
+        width: 280px
+    }
+
+    .img-container{
+        margin: 5px 0
+    }
+}
+
+@media screen and (max-width: 850px){
+    .item-product-img{
+        width: 300px
+    }
+
+    .img-container{
+        margin: 15px 15px
+    }
+}

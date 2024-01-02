@@ -6,7 +6,7 @@ export default function Item({product}) {
     return (
         <div className='item-card'>
             <div className='img-container'>
-                <img className="item-product-img" width="250" src={product.img} alt={product.name}/>
+                <img className="item-product-img" src={product.img} alt={product.name}/>
             </div>
             <h3>{product.name}</h3>
             <p>Precio: USD ${product.price}</p>

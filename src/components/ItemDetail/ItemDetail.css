@@ -80,3 +80,29 @@ p{
     background-color: #06281f ;
 }
 
+@media screen and (max-width: 850px) {
+    .product-detail-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.5fr 0.4fr;
+    }
+
+    .product-title{
+        grid-column: 1/2;
+    }
+
+    .product-img{
+        margin-top: 1rem;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 75%;
+        justify-self: center
+    }
+
+    .product-details{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        justify-self: center;
+    }
+
+}
+

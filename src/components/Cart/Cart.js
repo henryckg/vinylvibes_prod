@@ -38,7 +38,7 @@ export default function Cart() {
                 :
                 <div className="empty-cart">
                     <h3>No hay productos en el carro</h3>
-                    <Link to='/' className="btn-link">Ir A La Tienda</Link>
+                    <Link to='/' className="btn-link">Ir a la Tienda</Link>
                 </div>
             }
             

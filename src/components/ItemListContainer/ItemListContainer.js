@@ -18,7 +18,7 @@ export default function ItemListContainer({ greeting }) {
         let itemsCollection
         if (categoryId){
             itemsCollection = query(collection(db, "products"), where("category", "==", categoryId))
-            setTitle("")
+            setTitle(categoryId)
         } else {
             itemsCollection = collection(db, "products")
             setTitle("Todos los Productos")

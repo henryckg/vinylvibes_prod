@@ -9,3 +9,9 @@
 .icon:hover{
     transform: translateY(-3px);
 }
+
+@media screen and (max-width: 850px) {
+    .cart-widget{
+        display: none;
+    }
+}
